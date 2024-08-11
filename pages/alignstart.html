@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flexbox</title>
+    <style>
+    .card-container{
+        display: flex;
+        background-color: wheat;
+        height: 8%;
+       flex-direction: row;
+       justify-content: start;
+       align-items: start;
+        
+    }
+    .productcard{
+        background-color:#ffb84d ;
+    height: 240px;
+    width: 180px;
+     border: 4px double black;
+     border-radius: 10px 10px 0px 0px;
+     margin: 5px 2px;
+   }
+    .card{
+        width: 100%;
+        height: 150px;
+        border-radius: 7px 7px 0px 0px;
+        display: inline-block;
+        
+    }
+    .card-title{
+        margin: 0px;
+        padding: 0px;
+    
+    }
+    .btn{
+        background-color:black;
+        color: aquamarine;
+        margin:10px auto;
+        padding:5px 8%;
+        border: none;
+        border-radius: 30px;
+        display: block;
+    }
+</style>
+</head>
+<body>
+    
+    <div class="card-container">
+
+        <div class="productcard">
+            <img src="./../images/12 fail.jpg" class="card"/>
+            <h2 class="card-title">&nbsp;<i>12<sup>th</sup>Fail</i></h2>
+            <button class="btn">watch This</button>
+        </div>
+
+        
+        <div class="productcard">
+            <img src="./../images/kalki.jpg" class="card"/>
+            <h2 class="card-title">&nbsp;<i>Kalki</i></h2>
+            <button class="btn">watch This</button>
+        </div>
+         
+        <div class="productcard">
+            <img src="./../images/3 idiot.jpg" class="card"/>
+            <h2 class="card-title"> &nbsp;<i>3 idiots</i></h2>
+            <button class="btn">watch This</button>
+        </div>
+        <div class="productcard">
+            <img src="./../images/bajirao.jpg" class="card"/>
+            <h3 class="card-title"> <i>BAJIRAO MASTANI</i></h3>
+            <button class="btn">watch This</button>
+        </div>
+    
+</body>
+</html>
